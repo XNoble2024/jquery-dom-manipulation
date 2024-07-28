@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies App!</title>
+  </head>
+  <body>
+    <h1>Movies App!</h1>
+    <div></div>
+    <form action="" id="add-movie">
+      <label for="movie-title">Title:</label>
+      <input type="text" id="movie-title" />
+      <label for="movie-rating">Rating:</label>
+      <input type="text" id="movie-rating" />
+      <button id="submit">Add movie</button>
+    </form>
+
+    <ul>
+      <li>wild wild west rated: 4.9</li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+      $(function() {
+        (e)preventDefault;()
+          $(#"submit") on.(click), function() {
+              const movieTitle = $("#movie-title");
+              const movieRating= $("#movie-rating");
+              $('ul').append(<li> "movieTitle.value" + '    rated ' "movieRating.value"</li><button>Delete</button>)
+
+          }
+      })
+    </script>
+  </body>
+</html>
